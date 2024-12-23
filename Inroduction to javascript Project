@@ -1,0 +1,37 @@
+  </head>
+  <body>
+   
+
+    <h1>My Calculator.HTML</h1>
+
+    <p>Sum of two numbers</p>
+    <p id="result"></p>
+
+    <p>Sub of two numbers</p>
+    <p id="resultSub"></p>
+
+    <p>Mult of two numbers</p>
+    <p id="resultMult"></p>
+
+    <p>Div of two numbers</p>
+    <p id="resultDiv"></p>
+
+    <script>
+      
+      var num1 = 15;
+      var num2 = 30;
+
+      var sum = num1 + num2;
+      document.getElementById("result").innerHTML = sum;
+
+      var sub = num1 - num2;
+      document.getElementById("resultSub").innerHTML = sub;
+
+      var mult = num1 * num2;
+      document.getElementById("resultMult").innerHTML = mult;
+
+      var div = num1 / num2;
+      document.getElementById("resultDiv").innerHTML = div;
+    </script>
+  </body>
+</html>
